@@ -1,0 +1,66 @@
+@import url('https://css.gg/math-plus.css');
+h1,h2
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    color:brown;
+}
+.mathematical_op
+{
+    height:20px;
+    width:60px;
+    padding:0;
+    color: #F7F4F3;
+    border-radius: 5px;
+    outline:crimson;
+    overflow:hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color:#564D4A;
+}
+.mathematical_op:hover
+{
+    background-color:#DB5375;
+}
+.mathematical_op:active
+{
+    background-color:#461220;
+}
+#input_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_add
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_subtract
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_multiply
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#button_division
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#result_div
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

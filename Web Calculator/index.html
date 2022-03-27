@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://css.gg/math-plus.css' rel='stylesheet'>
+</head>
+<body>
+    <h1>Wanna do some math?</h1>
+    <h2>You are in the right place</h2>
+    <div id="input_div">
+    <input id="num1" type="text" placeholder="Number 1"><br>
+    <input id="num2" type="text" placeholder="Number 2"><br>
+    </div>
+    <div id="button_add">
+    <button type="button" onclick="addition()" class="mathematical_op">
+        <span class="button_add">Add</span>
+        <span class="button_add_icon">
+            <ion-icon name="add-outline"></ion-icon>    
+        </span>
+    </button>
+    </div>
+    <div id="button_subtract">
+    <button type="button" onclick="subtraction()" class="mathematical_op">Subtract</button><br>
+    </div>
+    <div id="button_multiply">
+    <button type="button" onclick="product()" class="mathematical_op">Multiply</button>
+    </div>
+    <div id="button_division">
+    <button type="button" onclick="division()" class="mathematical_op">Divide</button>
+    </div>
+    <div id="result_div">
+    <span id="result-el">Result:</span>
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
