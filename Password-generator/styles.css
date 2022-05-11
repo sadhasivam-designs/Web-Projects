@@ -12,9 +12,15 @@ h1
 .user-preference
 {
     color: #FE6D73;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .slidecontainer
 {
     text-align: center; 
+}
+#pass-length
+{
+    width:auto;
+    height: auto;
 }
