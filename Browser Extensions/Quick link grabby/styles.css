@@ -1,0 +1,70 @@
+body
+{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+#link-input
+{
+    width: 400px;
+    background-color: #FEFAE080;
+    /* opacity: 0.5; */
+    padding: 10px;
+    text-align:center;
+    border: solid 3px #2EC0F9;
+    margin : 2px;
+    border-radius: 10px;
+}
+#grab-btn
+{
+    border-radius: 5px;
+    background-color:#74D3AE;
+    border:2px solid #388697;
+    height:30px;
+    width:80px;
+    margin:  1px;
+}
+#del-btn
+{
+    border-radius: 5px;
+    background-color:#74D3AE;
+    border:2px solid #388697;
+    height:30px;
+    width:80px;
+    margin:  1px;
+}
+#grp-btn
+{
+    border-radius: 5px;
+    background-color:#74D3AE;
+    border:2px solid #388697;
+    height:30px;
+    width:80px;
+    margin:  1px;
+}
+.input-div
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.buttons
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+#fetch-btn
+{
+    border-radius: 5px;
+    background-color:#74D3AE;
+    border:2px solid #388697;
+    height:30px;
+    width:80px;
+    margin: 1px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
