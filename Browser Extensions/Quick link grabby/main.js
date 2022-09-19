@@ -33,19 +33,14 @@ grabBtn.addEventListener("click", function(){
 // DELETE BUTTON FUNCTION
 
 delBtn.addEventListener("click", function(){
-    localStorage.clear();
-    entries = [];
-    render(entries);
-    // let i;
-    // for(i=0;i<entries.length;i++)
+    // if(document.getElementById('links-checkbox').checked)
     // {
-    //     if(document.getElementById('links-checkbox').checked)
-    //     {
-
-    //         entries[i] == "";
-    //         render(entries);
-    //     }
+    //     alert("HI");
     // }
+    let checked = document.querySelectorAll(".delete-checkbox:checked");
+    checked.forEach((elem) => {
+    elem.parentElement.style.display = "none";
+  })
 })
 
 //FETCH BUTTON FUNCTION
@@ -68,7 +63,7 @@ function render(dummyLink)
     for(let i = 0 ; i < dummyLink.length ; i++ )
     {
         listItems += `
-            <input class="checkbox" id="links-checkbox" type="checkbox">
+            <input class="checkbox" class="delete-checkbox" type="checkbox" value="i">
                 <label for="links-checkbox">
                     <a target='_blank' href='${dummyLink[i]}'>
                         ${dummyLink[i]}
